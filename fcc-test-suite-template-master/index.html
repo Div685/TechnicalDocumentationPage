@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" context="width=device-width, initial-scale=1.0"> 
+    <meta charset="UTF-8">
+    <title>Python</title>
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <style>
+      @media (max-size: 700px) {
+  
+      }
+    </style>
+  </head>
+
+  <body>
+    
+    <div class="wrapper">
+            <nav id="navbar">
+
+                <div class="menu-toggle">
+                  <i class="fa fa-bars" aria-hidden="true"></i>
+                </div>
+                <header> 
+                    <div class="logo">
+                    <img class="responsive" src="images/python.png" alt="logo" width="auto" />
+                    </div> 
+                </header>
+                <ul>
+                    <li>  <a class="nav-link active" href="#Introduction">Introduction</a> </li>
+                    <li>  <a class="nav-link" href="#history">History </a> </li>
+                    <li>  <a class="nav-link" href="#syntax_and_semantics">Syntax and semantics </a> </li>
+                    <li>  <a class="nav-link" href="#Library">library </a> </li>
+                    <li>  <a class="nav-link" href="#Installing_the_tools"> Installing the tools</a> </li>
+                    <li>  <a class="nav-link" href="#cross_compiler_to_other_language">cross compiler to other language</a> </li>
+                    <li>  <a class="nav-link" href="#python_programming_example">Python programming Example </a> </li>
+                    <li>  <a class="nav-link" href="#external_links">External links </a> </li>
+                     
+                </ul>            
+            </nav>
+
+            <main id="main-doc">
+                <section class="main-section" id="Introduction" >
+                    <header>Introduction</header>
+                    <p>
+                        Python is a high level general-purpose programming language. 
+                        It uses a multi-paradigm approach, meaning it supports procedural, object-oriented, and some functional programming constructs.
+                    </p>
+                    <p>
+                        Python is an interpreted, high-level, general-purpose programming language. 
+                        Created by Guido van Rossum and first released in 1991, Python's design philosophy emphasizes code readability with its notable use of significant whitespace. 
+                        Its language constructs and object-oriented approach aim to help programmers write clear,
+                        logical code for small and large-scale projects.
+                    </p>
+                </section>
+                <section class="main-section" id="history">
+                    <header>History</header>
+                    <p>
+                        Python was conceived in the late 1980 by Guido van Rossum at Centrum Wiskunde & Informatica (CWI) in the Netherlands as a successor to the ABC language (itself inspired by SETL)
+                        ,capable of exception handling and interfacing with the Amoeba operating system.
+                        Its implementation began in December 1989.[38] Van Rossum shouldered sole responsibility for the project, as the lead developer, until 12 July 2018, when he announced his "permanent vacation" from his responsibilities as Python's Benevolent Dictator For Life, a title the Python community bestowed upon him to reflect his long-term commitment as the project's chief decision-maker.[39] He now shares his leadership as a member of a five-person steering council.
+                        In January 2019, active Python core developers elected Brett Cannon, Nick Coghlan, Barry Warsaw, Carol Willing and Van Rossum to a five-member "Steering Council" to lead the project.
+                    </p>
+
+                    <p>
+                        Python 2.0 was released on 16 October 2000 with many major new features, including a cycle-detecting garbage collector and support for Unicode.
+
+                        Python 3.0 was released on 3 December 2008. It was a major revision of the language that is not completely backward-compatible.
+                        Many of its major features were backported to Python 2.6.x and 2.7.x version series. Releases of Python 3 include the 2to3 utility, which automates (at least partially) the translation of Python 2 code to Python 3.
+
+                        Python 2.7's end-of-life date was initially set at 2015 then postponed to 2020 out of concern that a large body of existing code could not easily be forward-ported to Python 3.
+
+                    </p>
+                </section>
+                <section class="main-section" id="syntax_and_semantics">
+                    <header>Syntax and semantics</header>
+                    <p>
+                        Python is meant to be an easily readable language. 
+                        Its formatting is visually uncluttered, and it often uses English keywords where other languages use punctuation. 
+                        Unlike many other languages, it does not use curly brackets to delimit blocks, and semicolons after statements are optional. 
+                        It has fewer syntactic exceptions and special cases than C or Pascal.
+                    </p>
+                    <ul>
+                        <li>Indentation</li>
+                        <li>Statements and control flow</li>
+                        <li>Expression</li>
+                        <li>Methods</li>
+                        <li>Typing</li>
+                        <li>Methematics</li>
+
+                    </ul>
+                </section>
+                <section class="main-section" id="Library">
+                  <header>Library</header>
+                  <p>
+                  Python's large standard library, commonly cited as one of its greatest strengths,
+                   provides tools suited to many tasks. For Internet-facing applications, 
+                   many standard formats and protocols such as MIME and HTTP are supported. 
+                   It includes modules for creating graphical user interfaces, connecting to 
+                   relational databases, generating pseudorandom numbers, arithmetic with 
+                   arbitrary-precision decimals,[100] manipulating regular expressions, and unit testing.
+
+                  </p>
+
+                  <p>
+                    Some parts of the standard library are covered by specifications 
+                    (for example, the Web Server Gateway Interface (WSGI) implementation wsgiref 
+                    follows PEP 333[101]), but most modules are not. They are specified by their code,
+                     internal documentation, and test suites. However, because most of the standard library
+                      is cross-platform Python code,  only a few modules need altering or rewriting for variant implementations.
+                  </p>
+
+                </section>
+                <section class="main-section" id="Installing_the_tools">
+                  <header >Installing the tools</header>
+                  <p>
+                    The standard library does not include build tools that support modern Python packaging 
+                    standards, as the core development team has found that it is important to have standard
+                     tools that work consistently, even on older versions of Python.
+                  </p>
+                  <p>
+                  The currently recommended build and distribution tools can be 
+                  installed by invoking the pip module at the command line
+                  </p>
+                  <code>
+                    <pre>
+                    python -m pip install setuptools wheel twine
+                    </pre>
+                  </code>
+
+                 
+                  <br>
+                  <br>
+                  <br>
+                </section>
+
+                <section class="main-section" id="python_programming_example">
+                    <header>Python programming Example</header>
+                    <p> Hello World Program </p>
+                    <code>
+                        <pre>
+                        print('Hello World')
+                        </pre>
+                    </code>
+                   
+                   <p>Python Function Example </p>
+                    <code>
+                      <pre>
+                        >>> pow(2,3)
+                            8
+                      </pre>
+                    </code>
+
+                    <p>Python Loops Example </p>
+                     <code>
+                        <pre>
+
+                        for number in range(0, 101):
+                            print(number)
+
+                        </pre>
+                     </code>
+                
+                    <p> Program to calculate the factorial of a positive integer.</p>
+                    <code>
+                    </code>
+                    <pre>
+
+                        n = int(input('Type a number, then its factorial will be printed: '))
+
+                        if n < 0:
+                            raise ValueError('You must enter a positive number')
+
+                        fact = 1
+                        i = 2
+                        while i <= n:
+                            fact = fact * i
+                            i += 1
+
+                        print(fact)
+                    </pre>
+                    <br>
+                  <br>
+                  <br>
+
+                </section>
+
+                <section class="main-section" id="cross_compiler_to_other_language">
+                    <header>cross compiler to other language</header>
+                    <p>
+                    There are several compilers to high-level object languages, 
+                    with either unrestricted Python, a restricted subset of Python, 
+                    or a language similar to Python as the source language:
+                    </p>
+                    <ul>
+                      <li>  Jython enables the use of the Java class library from a Python program. </li>
+                       <li> IronPython follows a similar approach in order to run Python programs on the .NET Common Language Runtime. </li>
+                       <li> The RPython language can be compiled to C, and is used to build the PyPy interpreter of Python.</li>
+                       <li> Pyjs compiles Python to JavaScript. </li>
+                       <li> Cython compiles Python to C and C++.</li>
+                       <li> Numba uses LLVM to compile Python to machine code.</li>
+                       <li> Pythran compiles Python to C++. </li>
+                       <li> Somewhat dated Pyrex (latest release in 2010) and Shed Skin (latest release in 2013) compile to C and C++ respectively. </li>
+                        <li>Google's Grumpy compiles Python to Go.</li>
+                        <li>MyHDL compiles Python to VHDL. </li>
+                       <li> Nuitka compiles Python into C++ </li>
+                    </ul>
+                </section>
+
+                <section class="main-section" id="external_links">
+                    <header>External links</header>   
+                    <ul>
+                        <li><a href="https://www.python.org" target="_blank">Official website</a> </li> 
+                        <li> <a href="https://en.wikipedia.org/wiki/Python_(programming_language)" target="_blank"> Python Wiki</a> </li>
+                    </ul>
+                </section>
+            </main>
+        </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <!--
+
+    Hello Camper!
+
+    For now, the test suite only works in Chrome!
+    Please read the README below in the JS Editor before beginning.
+    Feel free to delete this message once you have read it.
+    Good luck and Happy Coding!
+
+    - The freeCodeCamp Team
+
+    -->
+    <script  src="js/index.js"></script>
+  </body>
+</html>
