@@ -2,6 +2,8 @@
 
 Python Technical Documentation Page Using HTML/CSS
 
+![screenshot](./assets/imges/screenshot.png)
+
 ## Built With
 
 - HTML
