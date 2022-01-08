@@ -2,7 +2,7 @@
 
 Python Technical Documentation Page Using HTML/CSS
 
-![screenshot](./assets/images/screenshot.png)
+![screenshot](./images/screenshot.png)
 
 ## Built With
 
