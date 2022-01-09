@@ -25,14 +25,14 @@ git clone https://github.com/Div685/TechnicalDocumentationPage.git
 👤 **Divyesh Patel**
 
 - GitHub: [@Div685](https://github.com/Div685)
-- Twitter: [@div_685](https://www.linkedin.com/in/divyesh-patel-2a15a6107)
+- Twitter: [@div_685](https://twitter.com/div_685)
 - LinkedIn: [Divyesh Patel](https://www.linkedin.com/in/divyesh-daxa-patel/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Div685/HTML-CSS-Capstone/issues).
+Feel free to check the [issues page](https://github.com/Div685/TechnicalDocumentationPage/issues).
 
 ## Show your support
 
